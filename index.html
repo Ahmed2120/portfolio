@@ -7,8 +7,9 @@
     <title>Document</title>
     <!-- === css === -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/color-1.css">
+    <link rel="stylesheet" href="css/skins/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style-switcher.css">
 </head>
 <body>
     <!-- === Main container start === -->
@@ -33,7 +34,7 @@
         <!-- === Main content start === -->
         <div class="main-content">
             <!-- === Home section start === -->
-            <section class="home section hidden">
+            <section class="home section ">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
@@ -50,7 +51,7 @@
             </section>
             <!-- === Home section end === -->
             <!-- === About section start === -->
-            <section class="about section hidden">
+            <section class="about section ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -217,7 +218,7 @@
             </section>
             <!-- === About section end === -->
             <!-- === Portfolio section start === -->
-            <section class="portfolio section hidden">
+            <section class="portfolio section ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -296,6 +297,31 @@
                             <h2>Contact Me</h2>
                         </div>
                     </div>
+                    <h3 class="contact-title">Have You Any Questions ?</h3>
+                    <h4 class="contact-sub-title">I'M AT YOUR SERVICES</h4>
+                    <div class="row">
+                        <!-- === contact info item start === -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Us On</h4>
+                            <p>+20102038124</p>
+                        </div>
+                        <!-- === contact info item end === -->
+                        <!-- === contact info item start === -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>ahmed202ashraf202@gmail.com</p>
+                        </div>
+                        <!-- === contact info item end === -->
+                        <!-- === contact info item start === -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>ahmed20@gmail.com</p>
+                        </div>
+                        <!-- === contact info item end === -->
+                    </div>
                 </div>
             </section>
             <!-- === Contact section end === -->
@@ -303,6 +329,24 @@
         <!-- === main content end === -->
     </div>
     <!-- === main container end === -->
+    <!-- === Style Switcher Start === -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-skin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- === Style Switcher End === -->
     <!-- === js === -->
     <script src="js/script.js"></script>
 </body>
